@@ -1,0 +1,50 @@
+{
+  "classrooms": [
+    {"id": "C1", "name": "Ауд. 101", "capacity": 30},
+    {"id": "C2", "name": "Ауд. 102", "capacity": 30},
+    {"id": "C3", "name": "Ауд. 201", "capacity": 40},
+    {"id": "C4", "name": "Ауд. 202", "capacity": 40},
+    {"id": "C5", "name": "Ауд. 301", "capacity": 50},
+    {"id": "C6", "name": "Ауд. 302", "capacity": 25}
+  ],
+  "teachers": [
+    {"id": "T1", "name": "Іванов І.І."},
+    {"id": "T2", "name": "Петренко П.П."},
+    {"id": "T3", "name": "Сидоренко С.С."},
+    {"id": "T4", "name": "Коваленко К.К."},
+    {"id": "T5", "name": "Бондаренко Б.Б."},
+    {"id": "T6", "name": "Мельник М.М."},
+    {"id": "T7", "name": "Шевченко Ш.Ш."},
+    {"id": "T8", "name": "Лисенко Л.Л."}
+  ],
+  "groups": [
+    {"id": "G1", "name": "КНІТ-23", "size": 20},
+    {"id": "G2", "name": "КНІТ-22", "size": 22},
+    {"id": "G3", "name": "КНІТ-21", "size": 18},
+    {"id": "G4", "name": "КНІТ-20", "size": 25}
+  ],
+  "subjects": [
+    {"id": "S1", "name": "Програмування", "hours_per_week": 4},
+    {"id": "S2", "name": "Математичний аналіз", "hours_per_week": 4},
+    {"id": "S3", "name": "Алгоритми", "hours_per_week": 3},
+    {"id": "S4", "name": "Бази даних", "hours_per_week": 3},
+    {"id": "S5", "name": "Кібербезпека", "hours_per_week": 2},
+    {"id": "S6", "name": "ООП", "hours_per_week": 3},
+    {"id": "S7", "name": "ЧМ", "hours_per_week": 2},
+    {"id": "S8", "name": "Теорія графів", "hours_per_week": 2},
+    {"id": "S9", "name": "Англійська", "hours_per_week": 2},
+    {"id": "S10", "name": "WEB", "hours_per_week": 3}
+  ],
+  "teaching_plan": [
+    {"subject_id": "S1", "teacher_id": "T1", "groups": ["G1", "G2"]},
+    {"subject_id": "S2", "teacher_id": "T2", "groups": ["G1", "G2", "G3"]},
+    {"subject_id": "S3", "teacher_id": "T3", "groups": ["G1", "G4"]},
+    {"subject_id": "S4", "teacher_id": "T4", "groups": ["G2", "G3"]},
+    {"subject_id": "S5", "teacher_id": "T5", "groups": ["G1", "G3"]},
+    {"subject_id": "S6", "teacher_id": "T6", "groups": ["G2", "G4"]},
+    {"subject_id": "S7", "teacher_id": "T7", "groups": ["G3", "G4"]},
+    {"subject_id": "S8", "teacher_id": "T1", "groups": ["G1"]},
+    {"subject_id": "S9", "teacher_id": "T8", "groups": ["G1", "G2", "G3", "G4"]},
+    {"subject_id": "S10", "teacher_id": "T6", "groups": ["G1", "G2"]}
+  ]
+}

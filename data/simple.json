@@ -1,0 +1,31 @@
+{
+  "classrooms": [
+    {"id": "C1", "name": "Ауд. 101", "capacity": 30},
+    {"id": "C2", "name": "Ауд. 102", "capacity": 25},
+    {"id": "C3", "name": "Ауд. 201", "capacity": 40},
+    {"id": "C4", "name": "Ауд. 202", "capacity": 35}
+  ],
+  "teachers": [
+    {"id": "T1", "name": "Іванов І.І."},
+    {"id": "T2", "name": "Петренко П.П."},
+    {"id": "T3", "name": "Сидоренко С.С."}
+  ],
+  "groups": [
+    {"id": "G1", "name": "КНІТ-23", "size": 20},
+    {"id": "G2", "name": "КНІТ-22", "size": 22}
+  ],
+  "subjects": [
+    {"id": "S1", "name": "Програмування", "hours_per_week": 4},
+    {"id": "S2", "name": "Математичний аналіз", "hours_per_week": 4},
+    {"id": "S3", "name": "Алгоритми", "hours_per_week": 2},
+    {"id": "S4", "name": "Бази даних", "hours_per_week": 3},
+    {"id": "S5", "name": "Кібербезпека", "hours_per_week": 2}
+  ],
+  "teaching_plan": [
+    {"subject_id": "S1", "teacher_id": "T1", "groups": ["G1", "G2"]},
+    {"subject_id": "S2", "teacher_id": "T2", "groups": ["G1", "G2"]},
+    {"subject_id": "S3", "teacher_id": "T3", "groups": ["G1"]},
+    {"subject_id": "S4", "teacher_id": "T1", "groups": ["G2"]},
+    {"subject_id": "S5", "teacher_id": "T2", "groups": ["G1"]}
+  ]
+}

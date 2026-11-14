@@ -1,0 +1,65 @@
+{
+  "classrooms": [
+    {"id": "C1", "name": "Ауд. 101", "capacity": 25},
+    {"id": "C2", "name": "Ауд. 102", "capacity": 25},
+    {"id": "C3", "name": "Ауд. 201", "capacity": 30},
+    {"id": "C4", "name": "Ауд. 202", "capacity": 30},
+    {"id": "C5", "name": "Ауд. 301", "capacity": 40},
+    {"id": "C6", "name": "Ауд. 302", "capacity": 40},
+    {"id": "C7", "name": "Ауд. 401", "capacity": 50},
+    {"id": "C8", "name": "Ауд. 402", "capacity": 20}
+  ],
+  "teachers": [
+    {"id": "T1", "name": "Іванов І.І."},
+    {"id": "T2", "name": "Петренко П.П."},
+    {"id": "T3", "name": "Сидоренко С.С."},
+    {"id": "T4", "name": "Коваленко К.К."},
+    {"id": "T5", "name": "Бондаренко Б.Б."},
+    {"id": "T6", "name": "Мельник М.М."},
+    {"id": "T7", "name": "Шевченко Ш.Ш."},
+    {"id": "T8", "name": "Лисенко Л.Л."},
+    {"id": "T9", "name": "Дмитренко Д.Д."},
+    {"id": "T10", "name": "Федоренко Ф.Ф."},
+    {"id": "T11", "name": "Гриценко Г.Г."},
+    {"id": "T12", "name": "Романенко Р.Р."}
+  ],
+  "groups": [
+    {"id": "G1", "name": "КНІТ-23", "size": 22},
+    {"id": "G2", "name": "КНІТ-22", "size": 24},
+    {"id": "G3", "name": "КНІТ-21", "size": 20},
+    {"id": "G4", "name": "КНІТ-20", "size": 25},
+    {"id": "G5", "name": "СА-22", "size": 28}
+  ],
+  "subjects": [
+    {"id": "S1", "name": "Програмування", "hours_per_week": 4},
+    {"id": "S2", "name": "Математичний аналіз", "hours_per_week": 4},
+    {"id": "S3", "name": "Алгоритми", "hours_per_week": 3},
+    {"id": "S4", "name": "Бази даних", "hours_per_week": 3},
+    {"id": "S5", "name": "Кібербезпека", "hours_per_week": 2},
+    {"id": "S6", "name": "ООП", "hours_per_week": 3},
+    {"id": "S7", "name": "ЧМ", "hours_per_week": 2},
+    {"id": "S8", "name": "Теорія графів", "hours_per_week": 2},
+    {"id": "S9", "name": "Англійська", "hours_per_week": 2},
+    {"id": "S10", "name": "WEB", "hours_per_week": 3},
+    {"id": "S11", "name": "AI", "hours_per_week": 3},
+    {"id": "S12", "name": "Операційні системи", "hours_per_week": 3},
+    {"id": "S13", "name": "Комп'ютерні мережі", "hours_per_week": 2},
+    {"id": "S14", "name": "Тестування ПЗ", "hours_per_week": 2}
+  ],
+  "teaching_plan": [
+    {"subject_id": "S1", "teacher_id": "T1", "groups": ["G1", "G2", "G3"]},
+    {"subject_id": "S2", "teacher_id": "T2", "groups": ["G1", "G2", "G3", "G4"]},
+    {"subject_id": "S3", "teacher_id": "T3", "groups": ["G1", "G5"]},
+    {"subject_id": "S4", "teacher_id": "T4", "groups": ["G2", "G3", "G4"]},
+    {"subject_id": "S5", "teacher_id": "T5", "groups": ["G1", "G3", "G5"]},
+    {"subject_id": "S6", "teacher_id": "T6", "groups": ["G2", "G4", "G5"]},
+    {"subject_id": "S7", "teacher_id": "T7", "groups": ["G3", "G4"]},
+    {"subject_id": "S8", "teacher_id": "T1", "groups": ["G1", "G2"]},
+    {"subject_id": "S9", "teacher_id": "T8", "groups": ["G1", "G2", "G3", "G4", "G5"]},
+    {"subject_id": "S10", "teacher_id": "T6", "groups": ["G1", "G2"]},
+    {"subject_id": "S11", "teacher_id": "T9", "groups": ["G1", "G3"]},
+    {"subject_id": "S12", "teacher_id": "T10", "groups": ["G2", "G4"]},
+    {"subject_id": "S13", "teacher_id": "T11", "groups": ["G3", "G5"]},
+    {"subject_id": "S14", "teacher_id": "T12", "groups": ["G1", "G4"]}
+  ]
+}
