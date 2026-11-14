@@ -19,7 +19,7 @@ dist/
 .coverage
 htmlcov/
 
-# Generated schedule outputs (root & tests)
+# Generated sche    dule outputs (root & tests)
 results/
 tests/results/
 
