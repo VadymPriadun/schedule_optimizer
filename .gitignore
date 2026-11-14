@@ -1,3 +1,37 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated schedule outputs (root & tests)
+results/
+tests/results/
+
+
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE & Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
